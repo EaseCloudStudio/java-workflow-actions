@@ -4,9 +4,9 @@ on:
   workflow_call:
     inputs:
       aws-region:
-        types: string
+        type: string
       image-name:
-        types: string
+        type: string
   
 jobs:
   build:
