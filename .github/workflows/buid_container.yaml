@@ -4,10 +4,8 @@ on:
   workflow_call:
     inputs:
       aws-region:
-        required: true
         types: string
-      image_name:
-        required: true
+      image-name:
         types: string
   
 jobs:
