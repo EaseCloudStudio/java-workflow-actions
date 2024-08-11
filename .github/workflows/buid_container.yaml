@@ -9,8 +9,6 @@ on:
       image_name:
         required: true
         types: string
-      tag:
-        types: string
   
 jobs:
   build:
